@@ -1,0 +1,20 @@
+{
+    "inches": {
+        "name": "Inches",
+        "description": "Converts inches to millimeters",
+        "reference": "in",
+        "conversion_equation": "x * 25.4"
+    },
+    "centimeters": {
+        "name": "Centimeters",
+        "description": "Converts centimeters to millimeters",
+        "reference": "cm",
+        "conversion_equation": "x * 10"
+    },
+    "millimeters": {
+        "name": "Millimeters",
+        "description": "Already in millimeters, no conversion needed",
+        "reference": "mm",
+        "conversion_equation": "x * 1"
+    }
+}
