@@ -1,0 +1,22 @@
+{
+    "Code Style Guidelines": {
+        "Modular Design": "Each functionality is broken down into separate modules or classes with clear responsibilities.",
+        "Naming Conventions": "Use `snake_case` for functions and variables, `PascalCase` for class names.",
+        "Commenting": "Use descriptive docstrings for functions and classes, with inline comments for complex logic. Go a tad overboard with comments to ensure clarity and thoroughness.",
+        "PEP 8 Compliance": "Follow Python\u2019s PEP 8 style guide for formatting.",
+        "Type Annotations": "Include type hints for function parameters and return types.",
+        "Error Handling": "Implement specific and informative try/except blocks.",
+        "Immutability": "Prefer immutable data types where possible to avoid unintended side effects.",
+        "Avoid Redundancy": "Focus on writing reusable functions and leveraging inheritance or composition where applicable."
+    },
+    "Logging Guidelines": {
+        "Logging Integration": "All code, including new and existing, must be integrated into the logging system to ensure comprehensive tracking of actions, decisions, and errors.",
+        "Detailed Logging": "Logs should be thorough, capturing errors, key steps in processes, and decisions made by the code.",
+        "Logs Folder": "All logs are stored in the `logs` directory within the EcoSim root folder."
+    },
+    "Authorship Guidelines": {
+        "Collaborative Development": "No placeholders will be used in generated code. Instead, comments will indicate where additional work is needed, allowing for collaborative development between the user and EcoSim Architect.",
+        "GitHub Commits": "Primary method for tracking contributions through detailed commit messages.",
+        "Authors File": "An `authors.md` file in the root folder credits contributors, including the AI assistance under 'EcoSim Architect (powered by ChatGPT)'."
+    }
+}
