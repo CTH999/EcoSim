@@ -1,0 +1,19 @@
+{
+  "exclude_directories": [
+    ".local",
+    ".openai",
+    ".venv",
+    ".env",
+    "__pycache__",
+    ".cache",
+    ".config",
+    ".github"
+  ],
+  "exclude_files": [
+    ".gitattributes",
+    ".gitignore",
+    "LICENSE"
+  ],
+  "zip_file_name": "EcoSim-{timestamp}.zip",
+  "maintain_structure": true
+}
