@@ -7,7 +7,8 @@
     "__pycache__",
     ".cache",
     ".config",
-    ".github"
+    ".github",
+    ".archives"
   ],
   "exclude_files": [
     ".gitattributes",
