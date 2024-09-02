@@ -49,3 +49,6 @@ def create_zip_files():
     return utils_zip_path
 
 # The create_zip_files() function would be called to perform the zipping when needed
+
+
+input("Press Enter to exit...")
